@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hanglake.laimotlannua.MainActivity"
+    android:weightSum="1">
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="345dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_weight="0.31" />
+
+    <Button
+        android:id="@+id/btndunglai"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:text="DỪNG LẠI"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="391dp"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:id="@+id/btnHengio"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+
+        android:text="HẸN GIỜ"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="35dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="427dp" />
+</LinearLayout>
